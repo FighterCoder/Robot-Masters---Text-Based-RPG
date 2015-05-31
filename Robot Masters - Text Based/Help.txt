@@ -1,0 +1,6 @@
+List of avalible functions:
+
+exit = Exit the program, you can exit at any time
+help = A list of all avalible functions
+home = The home menu
+shop = The shop

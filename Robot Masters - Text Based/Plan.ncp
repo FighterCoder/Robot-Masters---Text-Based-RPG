@@ -1,0 +1,78 @@
+<Project>
+  <Name>Robot Masters - Text</Name>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Untitled</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>Shop</Name>
+        <Access>Public</Access>
+        <Location left="71" top="43" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">void DisplayShop()</Member>
+        <Member type="Method">void BuyItem()</Member>
+        <Member type="Method">void SellItem()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Basic</Name>
+        <Access>Public</Access>
+        <Location left="379" top="43" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">void FunctionCaller()</Member>
+        <Member type="Method">void AutoSave()</Member>
+        <Member type="Method">void Help()</Member>
+        <Member type="Method">void ShowInventory()</Member>
+        <Member type="Method">void Welcome()</Member>
+        <Member type="Method">int GetBalance()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Quest</Name>
+        <Access>Public</Access>
+        <Location left="71" top="290" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">void DisplayQuests()</Member>
+        <Member type="Method">void StartQuest()</Member>
+        <Member type="Method">void Battle()</Member>
+        <Member type="Method">void Results()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Workshop</Name>
+        <Access>Public</Access>
+        <Location left="379" top="290" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">void DisplayWorkshop()</Member>
+        <Member type="Method">void Upgrade()</Member>
+        <Member type="Method">void Downgrade()</Member>
+        <Member type="Method">void VeiwRobobt()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships>
+      <Relationship type="Association" first="1" second="0">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+      </Relationship>
+      <Relationship type="Association" first="1" second="3">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+      </Relationship>
+      <Relationship type="Association" first="1" second="2">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+      </Relationship>
+    </Relationships>
+  </ProjectItem>
+</Project>

@@ -1,0 +1,18 @@
+﻿Build started 31/05/2015 18:07:43.
+     1>Project "C:\Users\Dylan\documents\visual studio 2013\Projects\Robot Masters - Text Based\Robot Masters - Text Based.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Programming\Visual Studio 2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Basic.cpp Shop.cpp main.cpp
+         main.cpp
+     1>c:\users\dylan\documents\visual studio 2013\projects\robot masters - text based\shop.h(11): error C2061: syntax error : identifier 'Basic'
+         Shop.cpp
+     1>c:\users\dylan\documents\visual studio 2013\projects\robot masters - text based\basic.h(9): error C2061: syntax error : identifier 'Shop'
+     1>c:\users\dylan\documents\visual studio 2013\projects\robot masters - text based\basic.h(15): error C2061: syntax error : identifier 'Shop'
+         Basic.cpp
+     1>c:\users\dylan\documents\visual studio 2013\projects\robot masters - text based\shop.h(11): error C2061: syntax error : identifier 'Basic'
+     1>c:\users\dylan\documents\visual studio 2013\projects\robot masters - text based\basic.cpp(40): error C2660: 'Shop::DisplayShop' : function does not take 2 arguments
+         Generating Code...
+     1>Done Building Project "C:\Users\Dylan\documents\visual studio 2013\Projects\Robot Masters - Text Based\Robot Masters - Text Based.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.38
