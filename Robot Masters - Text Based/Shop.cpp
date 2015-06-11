@@ -1,4 +1,7 @@
 #include "Stdafx.h"
+#include "Basic.h"
+#include "Player.h"
+#include "Item.h"
 #include "Shop.h"
 
 Shop::Shop()

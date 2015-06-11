@@ -1,5 +1,6 @@
 #include "Stdafx.h"
 #include "Player.h"
+#include "Inventory.h"
 
 Player::Player()
 {

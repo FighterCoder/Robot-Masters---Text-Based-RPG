@@ -1,6 +1,7 @@
 #include "Stdafx.h"
 #include "Basic.h"
-#include <Windows.h>
+#include "Player.h"
+#include "Shop.h"
 
 Basic::Basic()
 {

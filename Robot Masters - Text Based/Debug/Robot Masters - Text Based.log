@@ -1,18 +1,42 @@
-﻿Build started 31/05/2015 18:07:43.
-     1>Project "C:\Users\Dylan\documents\visual studio 2013\Projects\Robot Masters - Text Based\Robot Masters - Text Based.vcxproj" on node 2 (Build target(s)).
+﻿Build started 11/06/2015 21:35:19.
+     1>Project "C:\Users\Dylan\Documents\Visual Studio 2013\Projects\Robot Masters - Text Based\Robot Masters - Text Based.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         D:\Programming\Visual Studio 2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Basic.cpp Shop.cpp main.cpp
+         D:\Programming\Visual Studio 2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Basic.cpp Player.cpp Shop.cpp main.cpp
          main.cpp
-     1>c:\users\dylan\documents\visual studio 2013\projects\robot masters - text based\shop.h(11): error C2061: syntax error : identifier 'Basic'
+     1>c:\users\dylan\documents\visual studio 2013\projects\robot masters - text based\player.h(15): error C2146: syntax error : missing ';' before identifier 'inventory'
+     1>c:\users\dylan\documents\visual studio 2013\projects\robot masters - text based\player.h(15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\dylan\documents\visual studio 2013\projects\robot masters - text based\shop.h(8): error C2061: syntax error : identifier 'Basic'
+     1>c:\users\dylan\documents\visual studio 2013\projects\robot masters - text based\shop.h(10): error C2065: 'Item' : undeclared identifier
+     1>c:\users\dylan\documents\visual studio 2013\projects\robot masters - text based\shop.h(10): error C2923: 'std::vector' : 'Item' is not a valid template type argument for parameter '_Ty'
          Shop.cpp
-     1>c:\users\dylan\documents\visual studio 2013\projects\robot masters - text based\basic.h(9): error C2061: syntax error : identifier 'Shop'
-     1>c:\users\dylan\documents\visual studio 2013\projects\robot masters - text based\basic.h(15): error C2061: syntax error : identifier 'Shop'
+     1>c:\users\dylan\documents\visual studio 2013\projects\robot masters - text based\player.h(15): error C2146: syntax error : missing ';' before identifier 'inventory'
+     1>c:\users\dylan\documents\visual studio 2013\projects\robot masters - text based\player.h(15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\dylan\documents\visual studio 2013\projects\robot masters - text based\shop.h(8): error C2061: syntax error : identifier 'Basic'
+     1>c:\users\dylan\documents\visual studio 2013\projects\robot masters - text based\shop.h(10): error C2065: 'Item' : undeclared identifier
+     1>c:\users\dylan\documents\visual studio 2013\projects\robot masters - text based\shop.h(10): error C2923: 'std::vector' : 'Item' is not a valid template type argument for parameter '_Ty'
+     1>c:\users\dylan\documents\visual studio 2013\projects\robot masters - text based\item.h(10): error C2653: 'Part' : is not a class or namespace name
+     1>c:\users\dylan\documents\visual studio 2013\projects\robot masters - text based\item.h(10): error C2146: syntax error : missing ';' before identifier 'type'
+     1>c:\users\dylan\documents\visual studio 2013\projects\robot masters - text based\item.h(10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\dylan\documents\visual studio 2013\projects\robot masters - text based\shop.cpp(8): error C2512: 'std::vector' : no appropriate default constructor available
+     1>c:\users\dylan\documents\visual studio 2013\projects\robot masters - text based\shop.cpp(16): error C2511: 'void Shop::DisplayShop(Basic &,Player &)' : overloaded member function not found in 'Shop'
+                 c:\users\dylan\documents\visual studio 2013\projects\robot masters - text based\shop.h(4) : see declaration of 'Shop'
+     1>c:\users\dylan\documents\visual studio 2013\projects\robot masters - text based\shop.cpp(26): error C2352: 'Shop::BuyItem' : illegal call of non-static member function
+                 c:\users\dylan\documents\visual studio 2013\projects\robot masters - text based\shop.h(11) : see declaration of 'Shop::BuyItem'
+     1>c:\users\dylan\documents\visual studio 2013\projects\robot masters - text based\shop.cpp(31): error C2352: 'Shop::SellItem' : illegal call of non-static member function
+                 c:\users\dylan\documents\visual studio 2013\projects\robot masters - text based\shop.h(12) : see declaration of 'Shop::SellItem'
+         Player.cpp
+     1>c:\users\dylan\documents\visual studio 2013\projects\robot masters - text based\player.h(15): error C2146: syntax error : missing ';' before identifier 'inventory'
+     1>c:\users\dylan\documents\visual studio 2013\projects\robot masters - text based\player.h(15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
          Basic.cpp
-     1>c:\users\dylan\documents\visual studio 2013\projects\robot masters - text based\shop.h(11): error C2061: syntax error : identifier 'Basic'
-     1>c:\users\dylan\documents\visual studio 2013\projects\robot masters - text based\basic.cpp(40): error C2660: 'Shop::DisplayShop' : function does not take 2 arguments
+     1>c:\users\dylan\documents\visual studio 2013\projects\robot masters - text based\player.h(15): error C2146: syntax error : missing ';' before identifier 'inventory'
+     1>c:\users\dylan\documents\visual studio 2013\projects\robot masters - text based\player.h(15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\dylan\documents\visual studio 2013\projects\robot masters - text based\shop.h(8): error C2061: syntax error : identifier 'Basic'
+     1>c:\users\dylan\documents\visual studio 2013\projects\robot masters - text based\shop.h(10): error C2065: 'Item' : undeclared identifier
+     1>c:\users\dylan\documents\visual studio 2013\projects\robot masters - text based\shop.h(10): error C2923: 'std::vector' : 'Item' is not a valid template type argument for parameter '_Ty'
+     1>c:\users\dylan\documents\visual studio 2013\projects\robot masters - text based\basic.cpp(41): error C2660: 'Shop::DisplayShop' : function does not take 2 arguments
          Generating Code...
-     1>Done Building Project "C:\Users\Dylan\documents\visual studio 2013\Projects\Robot Masters - Text Based\Robot Masters - Text Based.vcxproj" (Build target(s)) -- FAILED.
+     1>Done Building Project "C:\Users\Dylan\Documents\Visual Studio 2013\Projects\Robot Masters - Text Based\Robot Masters - Text Based.vcxproj" (Build target(s)) -- FAILED.
 
 Build FAILED.
 
-Time Elapsed 00:00:01.38
+Time Elapsed 00:00:02.79

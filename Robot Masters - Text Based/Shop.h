@@ -1,7 +1,4 @@
 #pragma once
-#include "Item.h"
-#include "Player.h"
-#include "Basic.h"
 
 class Shop
 {
